@@ -43,28 +43,4 @@ namespace BridgeVisitor
             this.restServiceConfiguration.VisitRestServiceConfigurationConsumer(configurationConsumer); 
         } 
     } 
-
-    // public class ConfigurationHandler : IConfigurationHandler
-    // { 
-    //     private IDatabaseConfiguration databaseConfiguration; 
-    //     private IRestServiceConfiguration restServiceConfiguration; 
-    
-
-    //     public ConfigurationHandler(
-    //         IConnectionConfiguration databaseConfiguration, 
-    //         IConnectionConfiguration restServiceConfiguration) 
-    //     { 
-    //         this.databaseConfiguration = databaseConfiguration as IDatabaseConfiguration; 
-    //         this.restServiceConfiguration = restServiceConfiguration as IRestServiceConfiguration; 
-    //     }  
-    
-    //     // Membres de IDatabaseConfiguration 
-    //     public string DatabaseName { get { return this.databaseConfiguration.DatabaseName; } } 
-    //     public string UserId { get { return this.databaseConfiguration.UserId; } } 
-    //     public string Password { get { return this.databaseConfiguration.Password; } } 
-    
-    //     // Membres de IRestServiceConfiguration 
-    //     public string RestMethod { get { return this.restServiceConfiguration.RestMethod; } } 
-    //     public string RestFormat { get { return this.restServiceConfiguration.RestFormat; } } 
-    // } 
 }
