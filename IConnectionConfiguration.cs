@@ -14,7 +14,7 @@ namespace BridgeVisitor
     }
 
 
-    public class ConnectionConfiguration : IConnectionConfiguration, IConfigurationVisitor 
+    public class ConnectionConfiguration : IConnectionConfiguration
     { 
         public string Name { get; }
         public string Address { get; }

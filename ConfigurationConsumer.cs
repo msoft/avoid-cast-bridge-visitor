@@ -9,10 +9,4 @@ namespace BridgeVisitor
     { 
         void AcceptConfiguration(IRestServiceConfiguration configuration); 
     } 
-
-    public interface IConfigurationVisitor 
-    { 
-        void VisitDatabaseConfigurationConsumer(IDatabaseConfigurationConsumer configurationConsumer); 
-        void VisitRestServiceConfigurationConsumer(IRestServiceConfigurationConsumer configurationConsumer); 
-    } 
 }
